@@ -7,10 +7,10 @@ int main()
     scanf("%c", &ch);
     if (isalpha(ch)) {
         if (islower(ch)) {
-            ch = toupper(ch);  // Convert to uppercase
+            ch = toupper(ch);  
             printf("Uppercase: %c\n", ch);
         } else {
-            ch = tolower(ch);  // Convert to lowercase
+            ch = tolower(ch);  
             printf("Lowercase: %c\n", ch);
         }
     } 

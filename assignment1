@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>  // For the isalpha, islower, and isupper functions
+#include <ctype.h>  
 int main()
   {
     char ch;
